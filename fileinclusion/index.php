@@ -36,7 +36,7 @@ if (isset($_COOKIE['auth'])) {
                                 $page = $_GET['page'];
                 } 
                 include("./inc/".$page);
-                echo "<br><br>Designed by Bithin";
+                echo "<br><br>Designed by Subi";
                 die();
         } else {
                 setcookie('auth',"");
